@@ -12,7 +12,8 @@ import Lottie from 'react-lottie';
 import animationData from "../Animations/typing.json";
 
 import io from "socket.io-client";
-const ENDPOINT = "http://localhost:5000";
+// const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://supraj-way-2-chat.onrender.com";
 var socket, selectedChatCompare;
 
 export default function SingleChat({fetchAgain,setFetchAgain}) {
